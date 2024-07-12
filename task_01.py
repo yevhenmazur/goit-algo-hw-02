@@ -12,7 +12,7 @@ class Request:
     id: int
     type: str
     estimation_tim: int
-    is_high_priority: bull
+    is_high_priority: bool
     '''
 
     id_counter = 1
